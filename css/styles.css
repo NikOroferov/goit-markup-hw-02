@@ -1,0 +1,122 @@
+:root {
+  --primary-color-text: #757575;
+  --secondary-color-text: #212121;
+  --accent-color: #2196f3;
+  --primary-bcg-color: #ffffff;
+  --secondary-bcg-color: #2f303a;
+  --third-bcg-color: #f5f4fa;
+  --primary-button-color: #f5f4fa;
+  --accent-button-color: #2196f3;
+}
+
+body {
+  background-color: #fff;
+  color: var(--primary-color-text);
+}
+/* 
+цвет основного текста: #212121;
+цвет вторичного текста: #757575;
+текст подвала: rgba(255, 255, 255, 0.6);
+
+
+цвет акцента: #2196F3;
+белый цвет: #FFFFFF;
+
+основной цвет фона: #FFFFFF;
+вторичный цвет фона 1: #2F303A;
+вторичный цвет фона 2: #F5F4FA;
+
+фон ячеек: #EEEEEE;
+
+цвет кнопки: #F5F4FA;
+акцент кнопки: #2196F3;
+*/
+
+/* index.html */
+
+/* Header */
+
+.logo {
+}
+
+.link {
+  color: var(--secondary-color-text);
+}
+
+.connection {
+  color: var(--primary-color-text);
+}
+
+.connection:hover,
+.link:hover,
+.connection:focus,
+.link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+  background: var(--secondary-bcg-color);
+}
+
+.hero-title {
+  color: white;
+}
+.hero-link {
+  background: var(--accent-color);
+  color: white;
+}
+
+/* Team */
+
+.team {
+  background: var(--third-bcg-color);
+}
+
+.team-item {
+  background: var(--primary-bcg-color);
+}
+
+.team-title,
+.team-name {
+  color: var(--secondary-color-text);
+}
+
+/* Footer */
+
+.footer {
+  background: var(--secondary-bcg-color);
+}
+
+.footer-connection {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.advantages-title,
+.doing-title,
+.link {
+  color: var(--secondary-color-text);
+}
+
+.address {
+  color: white;
+}
+
+/* portfolio.html */
+/* Filter */
+
+.filter-unit {
+  background: var(--primary-button-color);
+  color: var(--secondary-color-text);
+}
+
+.filter-unit:hover,
+.filter-unit:focus {
+  background: var(--accent-button-color);
+  color: white;
+}
+
+.cards-title {
+  color: var(--secondary-color-text);
+}

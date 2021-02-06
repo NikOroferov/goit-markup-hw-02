@@ -1,43 +1,26 @@
 :root {
-  --primary-color-text: #757575;
-  --secondary-color-text: #212121;
-  --accent-color: #2196f3;
+  --primary-color-text: rgba(117, 117, 117, 1);
+  --secondary-color-text: rgba(33, 33, 33, 1);
+  --accent-color: rgba(33, 150, 243, 1);
   --primary-bcg-color: #ffffff;
   --secondary-bcg-color: #2f303a;
-  --third-bcg-color: #f5f4fa;
+  --third-bcg-color: rgba(245, 244, 250, 1);
+
   --primary-button-color: #f5f4fa;
-  --accent-button-color: #2196f3;
+  --accent-button-color: rgba(33, 150, 243, 1);
 }
 
 body {
   background-color: #fff;
   color: var(--primary-color-text);
 }
-/* 
-цвет основного текста: #212121;
-цвет вторичного текста: #757575;
-текст подвала: rgba(255, 255, 255, 0.6);
 
-
-цвет акцента: #2196F3;
-белый цвет: #FFFFFF;
-
-основной цвет фона: #FFFFFF;
-вторичный цвет фона 1: #2F303A;
-вторичный цвет фона 2: #F5F4FA;
-
-фон ячеек: #EEEEEE;
-
-цвет кнопки: #F5F4FA;
-акцент кнопки: #2196F3;
-*/
+ul {
+  list-style: none;
+}
 
 /* index.html */
-
 /* Header */
-
-.logo {
-}
 
 .link {
   color: var(--secondary-color-text);
@@ -63,7 +46,13 @@ body {
 .hero-title {
   color: white;
 }
+
 .hero-link {
+  background: var(--third-bcg-color);
+  color: var(--secondary-bcg-color);
+}
+
+.hero-link:hover {
   background: var(--accent-color);
   color: white;
 }
@@ -93,6 +82,11 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-connection:hover,
+.footer-connection:focus {
+  color: var(--accent-color);
+}
+
 .advantages-title,
 .doing-title,
 .link {
@@ -106,13 +100,13 @@ body {
 /* portfolio.html */
 /* Filter */
 
-.filter-unit {
+.filter-item {
   background: var(--primary-button-color);
   color: var(--secondary-color-text);
 }
 
-.filter-unit:hover,
-.filter-unit:focus {
+.filter-item:hover,
+.filter-item:focus {
   background: var(--accent-button-color);
   color: white;
 }

@@ -26,6 +26,10 @@ ul {
   list-style: none;
 }
 
+.title {
+  display: none;
+}
+
 .logo-first {
   color: var(--accent-color);
 }

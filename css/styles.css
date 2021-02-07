@@ -106,7 +106,8 @@ ul {
   line-height: 1.75;
 }
 
-.hero-link:hover {
+.hero-link:hover,
+.hero-link:focus {
   background: var(--accent-color);
   color: white;
 }

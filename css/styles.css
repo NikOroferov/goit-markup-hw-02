@@ -12,22 +12,31 @@
   --white: rgba(255, 255, 255, 1);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 body {
   background-color: var(--white);
   color: var(--primary-color-text);
   font-family: 'Raleway', 'Roboto', sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
 ul {
   list-style: none;
 }
 
-.title {
-  display: none;
+a {
+  text-decoration: none;
 }
 
 .logo-first {
@@ -146,6 +155,11 @@ ul {
   line-height: 1.2;
 }
 
+.doing-img {
+  width: 370px;
+  height: 294px;
+}
+
 /* Team */
 
 .team {
@@ -154,6 +168,12 @@ ul {
 
 .team-item {
   background: var(--primary-bcg-color);
+  width: 270px;
+  height: 368px;
+}
+
+.team-photo {
+  width: 270px;
 }
 
 .team-title,
@@ -243,4 +263,9 @@ ul {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.875;
+}
+
+.cards-img {
+  width: 370px;
+  height: 294px;
 }
